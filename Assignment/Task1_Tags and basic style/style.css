@@ -1,0 +1,42 @@
+h1{
+    padding:2px;
+    background-color: lightskyblue;
+    margin:2px;
+    color:blue;
+}
+h2{
+    padding:2px;
+    background-color:lightcoral;
+    margin:2px;
+    border:1px solid darkorchid;
+}
+h3{
+    padding:2px;
+    background-color: lightgoldenrodyellow;
+    margin:3px;
+    border:1px solid darkcyan;
+}
+h4{
+    background-color:lightpink ;
+    padding:2px;
+    margin:1px;
+    border:2px solid darkmagenta;
+}
+h4{
+    background-color: lightgreen;
+    padding:2px;
+    border-radius:2px solid red;
+    margin-top: 1px;
+}
+h5{
+    background-color: lightgrey;
+    padding:1px;
+    margin:3px;
+    border-bottom: 2px solid darkmagenta;
+}
+h6{
+    background-color: lightpink;
+    color:brown;
+    padding:1px;
+    border: 1px solid darkorange;
+}
