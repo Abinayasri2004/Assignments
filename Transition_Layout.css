@@ -1,0 +1,117 @@
+body{
+    margin:0px;
+    padding:0px;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+header{
+    background-color: rgb(74, 31, 68);
+    border:2px solid  rgb(74, 31, 68);
+    color:white;
+    height:50px;
+    padding:10px;
+    display: flex;
+    align-items: center; 
+    cursor:pointer;
+    }
+nav a:hover,.logo:hover{
+    color:rgb(225, 225, 96);
+}
+header:hover,button:hover,footer:hover{
+    background-color: rgb(142, 30, 127);
+    border:2px solid rgb(132, 61, 123);
+    transition-duration: 1s;
+}
+.logo{
+    font-size:30px;
+    padding:10px;
+    margin-left:100px;
+    color:white;
+}
+.nav{
+    margin-left:840px;
+}
+.nav a{
+    text-decoration: none;
+    color:white;
+    padding:9px;
+    font-size:17px;
+    margin-bottom:5px;
+}
+#sec1{
+    background-color: rgb(238, 201, 233);
+    height:300px;
+    padding:37px;
+    text-align: center;
+    padding-top:40px;
+    transition:transform 0.10;
+}
+#sec1:hover{
+    background-color:#e1b3d9 ;
+    transform:scaleX(1.1);
+}
+.first{ 
+    padding-top:75px;
+    margin:5px;
+    font-style:Arial, sans-serif;
+}
+.secd{
+    padding:7px;
+    margin:5px;
+} 
+button{
+    background-color: rgb(74, 31, 68);
+    height:35px;
+    width:130px;
+    border:1px solid rgb(74, 31, 68);
+    border-radius:3px;
+    color:white;
+    box-shadow: 1px 1px 4px  rgb(115, 35, 124);
+    cursor:pointer;
+    margin:15px;
+    
+}
+#sec2{
+    padding:20px;
+    background-color: white;
+    font-size:14px;
+    font-family:Arial ;
+    height:270px;
+}
+#sec2:hover{
+    background-color: whitesmoke;
+}
+.art{
+    text-align: center;
+}
+.tech{
+    display:flex;
+    justify-content:center;
+    
+}
+.html,.css,.js{
+    border:1px solid white;
+    border-radius: 6px;
+    padding:5px;
+    box-shadow: 1px 1px 7px gray;
+    height:110px;
+    text-align:center;
+    padding:15px;
+    margin:20px;
+    width:170px;
+    cursor:pointer;
+    transition: transform 0.5s;
+}
+.html:hover,.css:hover,.js:hover{
+    transform: scale(1.1);
+}
+
+footer{
+    background-color:  rgb(74, 31, 68);
+    border:2px solid  rgb(74, 31, 68);
+    color:white;
+    height:50px;
+    padding:10px;
+    text-align: center;
+     transition:transform 0.25;
+    }
